@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head.ejs %>
+</head>
+
+<body class="container">
+    <header>
+        <% include ../partials/header.ejs %>        
+    </header>
+
+    <main>
+        <div class="jumbotron">
+
+            <h1>Title: <%= head.title %></h1>
+
+            <h1>
+                Number to Cube:
+                <%= inpNumber %>
+            </h1>
+
+            <h1>
+                Result:
+                <%= resultNumber %>
+            </h1>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+
+</html>
